@@ -1,7 +1,6 @@
 <script setup>
-// import { onMounted } from 'vue'
 import Footer from '@/components/Footer.vue'
-
+import DemoYouTube from '@/components/DemoYouTube.vue'
 </script>
 
 <template>
@@ -13,15 +12,15 @@ import Footer from '@/components/Footer.vue'
                 <img :src="'./imgs/logo.png'" alt="WordPress Plugin - Agile Scrum Kanban Board">
             </router-link>
             <nav>
-              <router-link class="button button-shadow" to="/">WordPress Agile Scrum</router-link> | 
-              <a class="button button-shadow" href="https://codecanyon.net/item/agile-scrum-project-issue-management/36720961">Purchase</a>
+              <router-link class="button button-shadow" to="/">HOME</router-link> | 
+              <a class="button button-shadow" target="_blank" href="https://codecanyon.net/item/agile-scrum-project-issue-management/36720961">Purchase</a>
             </nav>
         </div>
 
-        <h1 class="text-center">asd</h1>
+        <h1 class="text-center">Video Demo</h1>
         
         <article class="text-center content">
-          asd
+          <DemoYouTube />
         </article>
   
         </main>
@@ -31,6 +30,10 @@ import Footer from '@/components/Footer.vue'
 </template>
 
 <style>
+h1 {
+    margin-bottom: 20px;
+}
+
 .container-nav {
     padding-top:10px;
     padding-bottom: 15px;
@@ -47,6 +50,11 @@ article.content img {
     display:inline-block;
 }
 
+article {
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 750px) {
     .container-nav {
         flex-wrap: wrap;
@@ -58,6 +66,10 @@ article.content img {
     
     .button {
         padding: 16px 16px;
+    }
+
+    h1 {
+        font-size: 24px;
     }
 }
 </style>
