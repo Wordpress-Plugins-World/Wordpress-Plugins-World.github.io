@@ -28,7 +28,7 @@
                     </div>
                     <ul class="footer-links list-reset">
                         <li>
-                            <a target="_blank" href="https://codecanyon.net/item/agile-scrum-project-issue-management/36720961">CodeCanyon</a>
+                            <a target="_blank" href="https://codecanyon.net/item/wp-invoices-pdf-electronic-invoicing-system/36891583">CodeCanyon</a>
                         </li>
                     </ul>
                     <ul class="footer-social-links list-reset">
