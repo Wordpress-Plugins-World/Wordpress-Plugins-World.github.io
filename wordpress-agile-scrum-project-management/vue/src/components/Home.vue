@@ -41,7 +41,12 @@
         <div class="hero-copy">
                       <h1 class="hero-title mt-0">Agile Scrum WordPress Plugin</h1>
                       <p class="hero-paragraph"> “Agile Scrum” is Project Issue Management (issue tracking system, bugtracker) plugin based on Agile Scrum technology with many features included in order to help you to run your business efficiently, providing all of the tools that you need to track your team and tasks workflow.</p>
-                      <div class="hero-cta"><a class="button button-shadow" href="https://agile-scrum.kirilkirkov.com/wp-login.php">DEMO</a><a class="button button-primary button-shadow" href="https://codecanyon.net/item/agile-scrum-project-issue-management/36720961">Purchase</a></div>
+                      <div class="hero-cta">
+                        <router-link class="button button-shadow" to="/demo">
+                            DEMO
+                        </router-link>
+                        <a class="button button-primary button-shadow" href="https://codecanyon.net/item/agile-scrum-project-issue-management/36720961">Purchase</a>
+                      </div>
         </div>
         <div class="hero-app">
           <div class="hero-app-illustration">
