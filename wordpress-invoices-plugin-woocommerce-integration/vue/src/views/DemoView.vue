@@ -13,7 +13,7 @@ import DemoYouTube from '@/components/DemoYouTube.vue'
             </router-link>
             <nav>
               <router-link class="button button-shadow" to="/">HOME</router-link> | 
-              <a class="button button-shadow" target="_blank" href="https://codecanyon.net/item/agile-scrum-project-issue-management/36720961">Purchase</a>
+              <a class="button button-shadow" target="_blank" href="https://codecanyon.net/item/wp-invoices-pdf-electronic-invoicing-system/36891583">Purchase</a>
             </nav>
         </div>
 
