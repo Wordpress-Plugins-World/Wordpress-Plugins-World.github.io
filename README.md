@@ -1,4 +1,4 @@
-# Wordpress-Plugins-World.github.io
+# Premium WordPress High Quality Plugins
 
 - https://wordpress-plugins-world.github.io/wordpress-agile-scrum-project-management/
 
