@@ -1,6 +1,11 @@
 <script setup>
+import { onMounted } from 'vue'
 import Footer from '@/components/Footer.vue'
 import DemoYouTube from '@/components/DemoYouTube.vue'
+
+onMounted(() => {
+   document.title = 'WordPress Plugin Demo - Project Management';
+})
 </script>
 
 <template>

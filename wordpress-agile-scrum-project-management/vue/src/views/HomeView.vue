@@ -9,6 +9,9 @@ onMounted(() => {
    script.src = 'https://wordpress-plugins-world.github.io/wordpress-agile-scrum-project-management/assets/home.min.js'
    document.head.appendChild(script)
 })
+
+// Title change
+document.title = 'WordPress Login Defender Plugin';
 </script>
 
 <template>

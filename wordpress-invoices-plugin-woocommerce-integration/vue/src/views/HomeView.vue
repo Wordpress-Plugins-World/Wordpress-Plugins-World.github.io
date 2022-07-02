@@ -9,6 +9,10 @@ onMounted(() => {
    script.src = 'https://wordpress-plugins-world.github.io/wordpress-agile-scrum-project-management/assets/home.min.js'
    document.head.appendChild(script)
 })
+
+// Title change
+document.title = 'WP Invoices - Electronic invoicing and warehouse management WordPress plugin';
+
 </script>
 
 <template>

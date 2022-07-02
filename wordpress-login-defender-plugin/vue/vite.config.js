@@ -1,5 +1,5 @@
 import { fileURLToPath, URL } from 'url'
-
+import path from "path";
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
@@ -13,6 +13,12 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: '../'
+    outDir: '../',
+    rollupOptions: {
+      input: {
+        index: path.resolve(__dirname, 'index.html'),
+        '404': path.resolve(__dirname, '404.html')
+      }
+    },
   }
 })
