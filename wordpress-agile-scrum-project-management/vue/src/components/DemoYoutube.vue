@@ -4,5 +4,6 @@
 <style scoped>
 iframe {
     max-width: 640px;
+    border: 5px solid;
 }
 </style>
